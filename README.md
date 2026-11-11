@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int year;
 
+    int year;
+    
     printf("Enter a year: ");
     scanf("%d", &year);
 
@@ -13,5 +14,7 @@ int main() {
     else {
         printf("%d NOT a Leap Year.\n");
     }
+    
 return 0;
+
 }
